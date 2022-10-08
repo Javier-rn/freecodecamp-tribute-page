@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  color: rgb(47, 47, 47);
 }
 main {
   background-color: rgb(235, 235, 235);
@@ -24,6 +25,7 @@ main > * {
 }
 
 #img-div {
+  border-radius: 5px;
   background-color: white;
   width: 97%;
   padding-bottom: 15px;
@@ -35,10 +37,6 @@ main > * {
 
 .bold {
   font-weight: bold;
-}
-
-#tribute-info {
-  color: rgb(38, 38, 38);
 }
 
 #tribute-info ul {
@@ -55,8 +53,19 @@ main > * {
   width: 500px;
   padding: 20px;
   margin: 0 auto;
+  text-align: left;
 }
 
-#tribute-info p {
+#tribute-info > p {
   font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#tribute-info blockquote {
+  padding-bottom: 0;
+}
+
+#tribute-info figure {
+  margin-bottom: 40px;
+  line-height: 1.45;
 }
